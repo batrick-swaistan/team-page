@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&family=New+Tegomin&display=swap');
+*{
+  box-sizing: border-box;
+
+  background-color: inherit;
+
+  font-family: sans-serif;
+}
+header{
+  text-align: center;
+  justify-content: space-between;
+}
+#heading-content > h1{
+  font-size: 50px;
+  margin:20px 8px 20px 8px;
+  padding: 100px 40px 50px 200px;
+  float: left;
+  font-family: 'Kiwi Maru', serif;
+  text-shadow: 2px 2px 2px gray;
+
+
+}
+
+
+.header-content > #desc-content {
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 2px;
+  margin: 14px 7px 14px 7px;
+  padding: 18px 10px 18px 10px;
+  text-align: center;
+  align-items:center;
+  font-family: 'New Tegomin', serif;
+
+
+
+}
+.img-content{
+
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-img{
+  width:300px ;
+  padding: 30px 13px 4px 13px;
+  position: relative;
+
+
+
+}
+
+.img{
+  padding-top: 15px !important;
+  text-align: center  !important;
+}
+.img-caption{
+  font-family: 'Kiwi Maru', serif;
+  font-size: 20px;
+}
+ .vertical-img{
+
+  font-family: 'New Tegomin', serif;
+  font-size: 20px;
+
+
+}
+
+
+footer{
+
+  text-align: center;
+  padding-top: 20px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-weight: lighter;
+  font-size: 15px;
+  grid-area: footer;
+
+}
+#footer{
+  color:gray;
+}
+#footer > a{
+  color: gray;
+  text-decoration: none;
+}
+#footer > a:hover{
+  color:black;
+}
+@media only screen and (max-width:600px) {
+    #heading-content > h1{
+      font-size: 30px;
+      float: none;
+      padding: 0;
+      padding-top: 50px;
+      padding-bottom: 10px;
+
+    }
+
+   .header-content > #desc-content {
+     font-size: 20px;
+     padding:0;
+   }
+
+}
+@media only screen and (min-width: 600px){
+  #heading-content > h1{
+    font-size: 30px;
+    float: none;
+    padding:50px 0 50px 0;
+  }
+  .header-content > #desc-content {
+    padding:0;
+  }
+}
+@media only screen and (min-width: 768px){
+  #heading-content > h1{
+      float:none;
+      padding:0;
+      padding-top: 50px;
+      padding-bottom: 10px;
+      word-wrap: break-word;
+    }
+    .header-content > #desc-content {
+      padding:0;
+    }
+
+}
+@media only screen and (min-width: 1200px) {
+  #heading-content > h1{
+    font-size:50px;
+    float: left;
+    padding: 100px 40px 50px 200px;
+  }
+  .header-content > #desc-content {
+    padding:18px 10px 18px 10px;
+  }
+}
